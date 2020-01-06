@@ -142,4 +142,18 @@
 
 			});
 
+			$('#menu a').click(function(e) {
+
+				// Treat as normal link if no-scroll class
+				if ($(this).hasClass('no-scroll')) return;
+		
+				e.preventDefault();
+				var heading = $(this).attr('href');
+				var scrollDistance = $(heading).offset().top - 50;
+		
+				$('html, body').animate({
+					scrollTop: scrollDistance + 'px'
+				}, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
+			});
+
 })(jQuery);
