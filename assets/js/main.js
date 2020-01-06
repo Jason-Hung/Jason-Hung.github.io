@@ -153,7 +153,7 @@
 		
 				$('html, body').animate({
 					scrollTop: scrollDistance + 'px'
-				}, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
+				}, 1200);
 			});
 
 })(jQuery);
