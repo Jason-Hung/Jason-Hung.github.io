@@ -142,7 +142,7 @@
 
 			});
 
-			$('#menu a').click(function(e) {
+			$('#menu a, .smooth-scroll').click(function(e) {
 
 				// Treat as normal link if no-scroll class
 				if ($(this).hasClass('no-scroll')) return;
