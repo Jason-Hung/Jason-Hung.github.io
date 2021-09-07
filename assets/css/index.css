@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 html {
   height: 100%;
 }
@@ -6,13 +8,52 @@ body {
   height: 100%;
   margin: 0px;
   background-color: #0A192F;
-  color: white;
+  color: rgb(245, 245, 245);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.1rem;
 }
 
 .highlight {
   color: red;
   background: pink;
+}
+
+.video {
+  width: 560px;
+  height: 340px;
+  display: block;
+}
+
+.section-header {
+  font-family: 'Roboto Mono', monospace;
+  width: auto;
+}
+
+.section-header-number {
+  display: inline-block;
+  color: #00DB05;
+  margin-bottom: 0;
+}
+
+.section-header-text {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.divider {
+  border-top: 2px solid rgb(245, 245, 245);
+}
+
+.section-row {
+  margin-top: 6rem;
+}
+
+.section-content {
+  color: rgb(212, 212, 212);
+}
+
+.section-content>p {
+  margin-bottom: 1.5rem;
 }
 
 #hero-container {
@@ -23,16 +64,12 @@ body {
   text-align: right;
 }
 
-#image-column {
-}
-
 #sd-title {
   font-size: 4rem;
   color: #00DB05;
 }
 
 #sd-title-image {
-  
   height: 30rem;
 }
 
