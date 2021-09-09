@@ -71,6 +71,19 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.goal-card {
+  border-radius: 5px;
+  background-color: #0E2240;
+}
+
+.goal-title {
+  margin-bottom: 35px;
+}
+
+.goal-content {
+  color: rgb(201, 201, 201)
+}
+
 #hero-container {
   background: radial-gradient(50% 50% at 50% 50%, rgba(0, 108, 2, 0.15) 0%, rgba(0, 0, 0, 0) 100%), #0A192F;;
 }
