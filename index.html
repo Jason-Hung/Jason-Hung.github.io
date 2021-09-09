@@ -12,20 +12,21 @@
     </head>
     <body>
         <!-- Fixed footer -->
-        <div id="footer">
+        <!-- <div id="footer">
             <h5>Jason Hung</h5>
             <h6>5<sup>th</sup> year Software Engineering Student</h6>
-        </div>
+        </div> -->
 
         <!-- Landing page -->
         <div id="hero-container" class="container h-100">
             <div class="row justify-content-center align-items-center h-100">
                 <div id="title-column" class="col">
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="500">
                         <h1 id="sd-title">7D Surgical</h1>
                     </div>
-                    <div>
-                        <h2 id="title">Work Term Report<br>2021</h2>
+                    <div >
+                        <h2 data-aos="fade-up" data-aos-duration="300" data-aos-delay="500">Work Term Report</h2>
+                        <h3 data-aos="fade-up" data-aos-duration="300" data-aos-delay="650">Jason Hung</h3>
                     </div>
                 </div>
                 <div id="image-column" class="col">
@@ -39,12 +40,12 @@
         <div class="container">
 
             <!-- Introduction section -->
-            <div class="row justify-content-start section-row">
+            <div class="row justify-content-start section-row" data-aos="fade-up" data-aos-duration="200">
                 <div class="col-auto">
                     <h2 class="section-header section-header-number">00.</h2>
                 </div>
 
-                <div class="col-5">
+                <div class="col col-md-8">
                     <div class="row align-items-center mb-5">
                         <div class="col-auto">
                             <h2 class="section-header section-header-text">Introduction</h2>
@@ -70,18 +71,13 @@
             </div>
 
             <!-- 7D Surgical Inc section -->
-            <div class="row justify-content-end section-row">
-                <!-- Video -->
-                <div class="col-auto">
-                    <iframe class="video mb-5" src='https://www.youtube.com/embed/uQNsba69DJU' frameborder='0' allowfullscreen></iframe>
-                    <iframe class="video" src='https://www.youtube.com/embed/avkAH537wSk' frameborder='0' allowfullscreen></iframe>
-                </div>
+            <div class="row justify-content-end section-row" data-aos="fade-up">
                 
                 <div class="col-auto">
                     <h2 class="section-header section-header-number">01.</h2>
                 </div>
 
-                <div class="col-5">
+                <div class="col col-md-8">
                     <div class="row align-items-center mb-5">
                         <div class="col-auto">
                             <h2 class="section-header section-header-text">7D Surgical Inc.</h2>
@@ -92,6 +88,8 @@
                     </div>
 
                     <div class="section-content">
+                        <iframe class="video mb-5" src='https://www.youtube.com/embed/uQNsba69DJU' frameborder='0' allowfullscreen></iframe>
+
                         <p>
                             7D Surgical is a medical device company specializing in image-guided surgery for 
                             spine and cranial navigation. Their system provides extremely fast registration 
@@ -115,12 +113,12 @@
             </div>
 
             <!-- My Role section -->
-            <div class="row justify-content-start section-row">
+            <div class="row justify-content-start section-row" data-aos="fade-up">
                 <div class="col-auto">
                     <h2 class="section-header section-header-number">02.</h2>
                 </div>
 
-                <div class="col-5">
+                <div class="col col-md-8">
                     <div class="row align-items-center mb-5">
                         <div class="col-auto">
                             <h2 class="section-header section-header-text">My Role</h2>
@@ -130,11 +128,13 @@
                         </div>
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
                         elit. Voluptate doloribus deserunt voluptatem, 
                         dignissimos cumque ratione aperiam fugiat rem, 
                         blanditiis, incidunt sequi suscipit quisquam. Doloremque 
-                        doloribus, dolores in ad harum eius?</p>
+                        doloribus, dolores in ad harum eius?
+                    </p>
                 </div>
             </div>
 
@@ -145,7 +145,8 @@
 
         <script>
             AOS.init({
-                once: true
+                once: true,
+                duration: 200
             });
         </script>
     </body>
