@@ -71,17 +71,21 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.goal-card {
+.card {
   border-radius: 5px;
   background-color: #0E2240;
 }
 
-.goal-title {
+.card-title {
   margin-bottom: 35px;
+  color: rgb(245, 245, 245);
 }
 
-.goal-content {
-  color: rgb(201, 201, 201)
+.card-title-name {
+  color: rgb(245, 245, 245);
+}
+
+.card-content {
 }
 
 #hero-container {
