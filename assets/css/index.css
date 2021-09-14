@@ -12,6 +12,31 @@ body {
   color: rgb(245, 245, 245);
   font-family: Roboto;
   font-size: 1rem;
+  position: relative;
+  background-attachment: fixed;
+}
+
+nav {
+  background-color: rgba(6, 15, 28, 0.8);
+  box-shadow: 0 10px 10px -2px rgba(0,0,0,0.1);
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  nav {
+    background-color: rgba(6, 15, 28, 0.25);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,0.1);
+  }
+}
+
+a {
+  display: flex !important;
+}
+
+.nav-number {
+  color: #00CF05;
+  margin: 0px 5px 0px 10px;
 }
 
 .animate__animated.animate__delay-1s {
@@ -63,6 +88,12 @@ body {
   margin-top: 6rem;
 }
 
+.section-row::before {
+  height: 54px;
+  content: "";
+  display: block;
+}
+
 .section-content {
   color: rgb(212, 212, 212);
 }
@@ -83,13 +114,6 @@ body {
 
 .card-title-name {
   color: rgb(245, 245, 245);
-}
-
-.card-content {
-}
-
-#hero-container {
-  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 108, 2, 0.15) 0%, rgba(0, 0, 0, 0) 100%), #0A192F;;
 }
 
 #title-column {
