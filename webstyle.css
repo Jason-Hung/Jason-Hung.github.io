@@ -9,6 +9,12 @@ img {
     max-height: 100%;
 }
 
+.wiki-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
 .page-body {
     margin: 0px 25vw;
     display: flex;
@@ -31,12 +37,6 @@ img {
 footer {
     margin-top: 100px;
 }
-
-/* .unstyled-link {
-    color: inherit;
-    text-decoration: none;
-    font-weight: bold;
-} */
 
 a, a:visited {
     text-decoration: none;
@@ -66,17 +66,17 @@ a:active {
     margin-bottom: 10px;
 }
 
-.article-list {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
 @media only screen and (max-width: 800px) {
     .page-row {
         flex-direction: column-reverse;
         gap: 50px;
     }
+}
+
+.article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 /* ======================= */
@@ -110,6 +110,9 @@ footer {
     box-shadow: -5px -5px 15px #acacac;
 }
 
+/* ============== */
+/* Navbar styling */
+/* ============== */
 nav.navbar {
     overflow: auto;
 }
@@ -211,6 +214,9 @@ nav.navbar ul li a:hover, nav.navbar ul li a:active {
     }
 }
 
+/* ================ */
+/* 404 page styling */
+/* ================ */
 .error-container {
     height: 80vh;
     display: flex;
@@ -237,7 +243,6 @@ nav.navbar ul li a:hover, nav.navbar ul li a:active {
 /* ==================== */
 /* Article page styling */
 /* ==================== */
-
 .article-body img {
     border-radius: 5px;
 }
