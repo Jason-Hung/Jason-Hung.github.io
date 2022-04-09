@@ -216,6 +216,7 @@ nav.navbar ul li a:hover, nav.navbar ul li a:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .error-container img {
